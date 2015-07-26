@@ -1,6 +1,23 @@
 Code book for modified data set - Please see code book that comes with original data set for original specifications
 
-###Was code book submitted to GitHub that modifies and updates the codebooks available to you with the data to indicate all the variables ###and summaries you calculated, along with units, and any other relevant information?
+Operations on data
+
+1.) Read in features.txt
+2.) Create a character vector using column 2 of features to be used as descriptive column names to lable x
+3.) Read in activity labels
+4.) Read in subject_train and subject_test
+5.) Combine the rows of subject_train and subject_test
+6.) Read in x_train and x_test
+7.) Combine the rows of x_train and x_test
+8.) Read in y_train and y_test
+9.) Combine the rows of y_train and y_test
+10.) y contains the activities as numbers for each observation join y with activity_labels to convert numbers to decriptive       names
+11.) Throw away number column leaving only descriptive names of activities for each observation
+12.) Combine subject, activites and x into complete dataframe
+13.) Label columns of new, complete data frame
+14.) Extract only columns with mean and standard deviation while keeping Subjects and activities 
+15.) Generate mean for all variables for all subjects for all activites and write it out to final data set
+
 
 Subjects 
 Each subject is represented by a number between 1 and 30
@@ -19,7 +36,6 @@ Each activity is assigned a number between 1 and 6 which also correspond to a de
 
 6 LAYING
  
-
 
 Features
 
@@ -93,7 +109,6 @@ fBodyBodyGyroMag-mean()
 fBodyBodyGyroMag-std()
 fBodyBodyGyroJerkMag-mean()
 fBodyBodyGyroJerkMag-std()"
-
 
 
 References
