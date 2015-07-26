@@ -1,6 +1,16 @@
 Code book for modified data set - Please see code book that comes with original data set for original specifications
 
-Operations on data
+The individual files in the originl data set generally fit together as follows:
+
+_________________________________________
+|Subjects      | Activites | Features    |
+_________________________________________
+|subject_train | y_train   | x_train     |
+_________________________________________
+|Subject_test  | y_test    | x_test    
+_________________________________________|
+
+Detailed operations on data
 
 1.) Read in features.txt
 2.) Create a character vector using column 2 of features to be used as descriptive column names to lable x
