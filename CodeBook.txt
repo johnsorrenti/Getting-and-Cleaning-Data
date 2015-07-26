@@ -11,7 +11,7 @@ Operations on data
 7.) Combine the rows of x_train and x_test
 8.) Read in y_train and y_test
 9.) Combine the rows of y_train and y_test
-10.) y contains the activities as numbers for each observation join y with activity_labels to convert numbers to decriptive       names
+10.) y contains the activities as numbers for each observation join y with activity_labels to convert numbers to decriptive names
 11.) Throw away number column leaving only descriptive names of activities for each observation
 12.) Combine subject, activites and x into complete dataframe
 13.) Label columns of new, complete data frame
